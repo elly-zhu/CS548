@@ -6,13 +6,13 @@ function Tags() {
       <h2>Tags</h2>
       <ul>
         <li>
-          <Tag name="Tag 1" />
+          <Tag name="React" />
         </li>
         <li>
-          <Tag name="Tag 2" />
+          <Tag name="State Management" />
         </li>
         <li>
-          <Tag name="Tag 3" />
+          <Tag name="React Hook" />
         </li>
       </ul>
     </section>

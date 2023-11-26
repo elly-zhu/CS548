@@ -4,25 +4,25 @@ function Articles() {
   return (
     <section className="articies">
       <Article
-        title={"Article 1"}
+        title={"React Basics"}
         content={
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+          "React.js, developed by Facebook, is a powerful JavaScript library for building user interfaces. Its declarative syntax allows developers to create interactive UIs more efficiently. React organizes UI components into a tree structure, with a virtual DOM ensuring optimal performance by updating only the necessary parts. This promotes code reusability and maintainability."
         }
-        tags={["Tag 1", "Tag2"]}
+        tags={["React"]}
       />
       <Article
-        title={"Article 2"}
+        title={"React State Management"}
         content={
-          "This is the content of the second article. Add your own text here."
+          "One of React's key features is its efficient state management. React components can hold and manage their own state, facilitating dynamic updates without a page reload. The useState hook simplifies state handling, allowing developers to incorporate stateful behavior effortlessly"
         }
-        tags={["Tag3"]}
+        tags={["React", "State Management"]}
       />
       <Article
-        title={"Article 3"}
+        title={"React Hooks and Lifecycle"}
         content={
-          "This is the content of the third article. Add your own text here."
+          "React Hooks revolutionized the way developers manage state and side effects. Introduced in React 16.8, hooks like useEffect and useReducer streamline component lifecycles and state transitions, reducing boilerplate code. Hooks allow functional components to utilize lifecycle methods, making them as powerful as class components. This paradigm shift simplifies component logic, promotes code readability, and encourages modularization. Developers can now harness the full power of React without the complexities of class-based components."
         }
-        tags={["Tag3"]}
+        tags={["React", "React Hook"]}
       />
     </section>
   );

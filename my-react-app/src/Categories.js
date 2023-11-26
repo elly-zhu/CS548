@@ -6,13 +6,13 @@ function Categories() {
       <h2>Categories</h2>
       <ul>
         <li>
-          <Category name="Category 1" />
+          <Category name="React" />
         </li>
         <li>
-          <Category name="Category 2" />
+          <Category name="Javascript" />
         </li>
         <li>
-          <Category name="Category 3" />
+          <Category name="News" />
         </li>
       </ul>
     </section>
