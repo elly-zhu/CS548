@@ -1,3 +1,5 @@
+![Pasted Graphic 4](https://github.com/elly-zhu/CS548Repo/assets/22209839/21506999-ab6f-40b0-97d2-74729091905d)### Application
+
 
 ### Backend
 
@@ -115,6 +117,32 @@ const getWorldTimeByTimezone = async (timezone) => {
     throw error; // You can choose to handle the error or rethrow it
   }
 };
-
 export default getWorldTimeByTimezone;
 ```
+
+### How to run
+#### Backend
+```
+# on one terminal
+cd backend
+npm install
+npm start
+```
+![image](https://github.com/elly-zhu/CS548Repo/assets/22209839/66cb5fa7-58b9-4094-b90e-9e2101a3f7f8)
+
+vist https://localhost:8080/
+If you see the following page, click on proceed
+
+#### Frontened
+```
+# on another terminal
+cd frontend
+npm install
+npm run dev
+```
+![image](https://github.com/elly-zhu/CS548Repo/assets/22209839/3fd494e8-ca3d-4ab3-bd45-02dc96d1fa68)
+
+visit http://localhost:5173/
+
+
+
