@@ -1,0 +1,5 @@
+{"firstname":"Jane","lastname":"Smith","mobile":"9222222222","landline":"5555551234","timezone":"America/Los_Angeles","address":"161 Mission Falls Ln, Fremont, CA 94539"}
+{"firstname":"John","lastname":"Doe","mobile":"9333333333","landline":"5555555678","timezone":"America/New_York","address":"123 Main St, New York, NY 10001"}
+{"firstname":"David","lastname":"Johnson","mobile":"9444444444","landline":"5555558765","timezone":"Europe/London","address":"456 Park Lane, London, W1A 1AA, UK"}
+{"firstname":"Raj","lastname":"Kumar","mobile":"9666666666","landline":"5555559999","timezone":"Asia/Kolkata","address":"321 Ganges Avenue, Delhi, 110001, India"}
+{"firstname":"Wei","lastname":"Chen","mobile":"9777777777","landline":"5555551111","timezone":"Asia/Shanghai","address":"987 Yangtze Road, Shanghai, 200000, China"}
