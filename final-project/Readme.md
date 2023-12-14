@@ -1,4 +1,4 @@
-![Pasted Graphic 4](https://github.com/elly-zhu/CS548Repo/assets/22209839/21506999-ab6f-40b0-97d2-74729091905d)### Application
+### Application
 
 
 ### Backend
