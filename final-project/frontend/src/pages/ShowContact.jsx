@@ -14,12 +14,15 @@ const ShowContact = () => {
   const [timeInfo, setTimeInfo] = useState();
   const { id } = useParams();
   const { enqueueSnackbar } = useSnackbar();
-  
+
   const fetchContactData = async () => {
     try {
       setLoading(true);
       const response = await axios.get(`https://localhost:8080/contacts/${id}`);
       setContact(response.data.data);
+      const time = await getWorldTimeByTimezone(response.data.data.timezone);
+      setWorldTime(time);
+      setTimeInfo(getTimeInfo(time, response.data.data.timezone));
       setLoading(false);
     } catch (error) {
       console.error(error);
