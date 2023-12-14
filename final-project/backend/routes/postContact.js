@@ -11,7 +11,6 @@ export const postContact = express.Router();
 
 postContact.post("/contacts", async (req, res) => {
   try {
-    logger.error(req);
     if (!req.body.firstname || !req.body.lastname || !req.body.mobile) {
       return res.status(400).send({
         message: "Missing required fields: firstname, lastname, mobile",
@@ -25,7 +24,7 @@ postContact.post("/contacts", async (req, res) => {
         timezone: req.body.timezone ?? "America/Los_Angeles",
         address: req.body.address,
         note: req.body.note,
-      };
+      }; 
 
       const contact = await Contact.create(newContact);
       logger.info(`Contact with name ${req.body.firstname} is created.`);

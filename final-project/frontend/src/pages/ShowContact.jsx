@@ -14,18 +14,12 @@ const ShowContact = () => {
   const [timeInfo, setTimeInfo] = useState();
   const { id } = useParams();
   const { enqueueSnackbar } = useSnackbar();
+  
   const fetchContactData = async () => {
     try {
       setLoading(true);
-
-      // Fetch contact data
       const response = await axios.get(`https://localhost:8080/contacts/${id}`);
       setContact(response.data.data);
-      if (contact.timezone) {
-        const time = await getWorldTimeByTimezone(contact.timezone);
-        setWorldTime(time);
-        setTimeInfo(getTimeInfo(time, contact.timezone));
-      }
       setLoading(false);
     } catch (error) {
       console.error(error);
@@ -36,18 +30,20 @@ const ShowContact = () => {
 
   useEffect(() => {
     fetchContactData();
-  }, [id, contact.timezone]);
+  }, [id]);
 
   useEffect(() => {
-    // Set up an interval to fetch world time every second
-    const intervalId = setInterval(async () => {
-      if (contact.timezone) {
+    if (contact && contact.timezone) {
+      const intervalId = setInterval(async () => {
         const time = await getWorldTimeByTimezone(contact.timezone);
         setWorldTime(time);
-      }
-    }, 1000);
-    return () => clearInterval(intervalId);
-  }, [id, contact.timezone]);
+        setTimeInfo(getTimeInfo(time, contact.timezone));
+      }, 1000);
+
+      return () => clearInterval(intervalId);
+    }
+  }, [contact]);
+  
 
   const labelClass = "text-xl mr-4 text-gray-500";
   const displayFieldClass = "text-xl mr-4 text-gray-900";
