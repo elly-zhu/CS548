@@ -1,3 +1,12 @@
+## Application Demo
+![image](https://github.com/elly-zhu/CS548Repo/assets/22209839/3a086086-4d95-4419-84eb-0b1280cc8125)
+![image](https://github.com/elly-zhu/CS548Repo/assets/22209839/2ea55a5c-9f3d-43fc-9f0c-695ac1aecc8a)
+![image](https://github.com/elly-zhu/CS548Repo/assets/22209839/a71167a4-f55c-40c4-acb9-1bef370cec83)
+![image](https://github.com/elly-zhu/CS548Repo/assets/22209839/cf46614c-6958-4a83-bce5-1e163075da7c)
+![image](https://github.com/elly-zhu/CS548Repo/assets/22209839/789ca764-949f-4df9-a845-2bd91bb616f6)
+![image](https://github.com/elly-zhu/CS548Repo/assets/22209839/485bc3f8-385a-4fb2-84fe-32439b8d8f86)
+![image](https://github.com/elly-zhu/CS548Repo/assets/22209839/07289f9c-db29-4358-bcb1-c3ed138d09bc)
+
 
 ## Overview
 ### Backend
@@ -118,14 +127,6 @@ const getWorldTimeByTimezone = async (timezone) => {
 };
 export default getWorldTimeByTimezone;
 ```
-## Application 
-![image](https://github.com/elly-zhu/CS548Repo/assets/22209839/3a086086-4d95-4419-84eb-0b1280cc8125)
-![image](https://github.com/elly-zhu/CS548Repo/assets/22209839/2ea55a5c-9f3d-43fc-9f0c-695ac1aecc8a)
-![image](https://github.com/elly-zhu/CS548Repo/assets/22209839/a71167a4-f55c-40c4-acb9-1bef370cec83)
-![image](https://github.com/elly-zhu/CS548Repo/assets/22209839/cf46614c-6958-4a83-bce5-1e163075da7c)
-![image](https://github.com/elly-zhu/CS548Repo/assets/22209839/789ca764-949f-4df9-a845-2bd91bb616f6)
-![image](https://github.com/elly-zhu/CS548Repo/assets/22209839/485bc3f8-385a-4fb2-84fe-32439b8d8f86)
-![image](https://github.com/elly-zhu/CS548Repo/assets/22209839/07289f9c-db29-4358-bcb1-c3ed138d09bc)
 
 ### How to run
 #### Backend
